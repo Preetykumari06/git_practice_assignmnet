@@ -11,9 +11,10 @@ let factors=0;
      return false;
 }
 
-let ans=prime(13);
-if(ans==true){
-   console.log("Prime");
+let answer = prime(13);
+
+if(answer == true){
+  console.log("Prime");
  } else {
-   console.log("Not Prime");
+  console.log("Not Prime");
 }
